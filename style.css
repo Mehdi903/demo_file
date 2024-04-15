@@ -1,9 +1,13 @@
-
+*{
+    margin: 0%;
+    padding: 0%;
+}
 body {
+    background-color: black;
     background-image: url(785868.png);
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: top;
+    height: 1500px;
 }
 .button{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -12,11 +16,11 @@ body {
     margin-left: 10%;
 }
 .navbar {
-    background-color: rgba(87, 85, 85, 0.219);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: hwb(0 43% 53% / 0.76);
 }
-
 .navbar-brand {
-    font-size: xx-large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
